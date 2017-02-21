@@ -38,7 +38,7 @@ class MyHTMLParser(HTMLParser):
     def handle_decl(self, data):
         s.append('Decl     : {}'.format(data))
 
-game_id = 204360
+game_id = 480650
 members = 'http://steamcommunity.com/games/{}/members?p={{}}'.format(game_id)
 page = 1
 players = []
